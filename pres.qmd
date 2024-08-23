@@ -1,7 +1,6 @@
 ---
 title: "Using R to Automate Workflows for a Water Quality Management System"
 author: "Alex Manos, Pinellas County Division of Environmental Management"
-affiliation: "Hello"
 format:
   revealjs:
     transition: slide

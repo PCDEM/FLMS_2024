@@ -10,7 +10,7 @@ format:
 
 
 
-## Presentation Outline {.smaller}
+## Agenda {.smaller}
 
 ```{=html}
 <div class="overview-container">

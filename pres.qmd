@@ -120,9 +120,9 @@ Sampling Program
   <div class="arrow fragment" data-fragment-index="4">&#8681;</div>
   <div class="box fragment" data-fragment-index="5">Perform QA/QC on all the data and make corrections when applicable</div>
   <div class="arrow fragment" data-fragment-index="5">&#8681;</div>
-  <div class="box fragment" data-fragment-index="6">Submit data to FDEP in WIN format</div>
+  <div class="box fragment" data-fragment-index="6">Upload data to FDEP WIN</div>
   <div class="arrow fragment" data-fragment-index="6">&#8681;</div>
-  <div class="box fragment" data-fragment-index="7">Submit data to USF Water Atlas for updated dashboard</div>
+  <div class="box fragment" data-fragment-index="7">Submit data to other partners (USF Water Atlas)</div>
   <div class="arrow fragment" data-fragment-index="7">&#8681;</div>
   <div class="box fragment" data-fragment-index="8">Conduct statistical analysis for trends, nutrient loading, etc.</div>
 </div>
@@ -141,7 +141,7 @@ Sampling Program
 
 <br>
 
-::: {.fragment .fade-in fragment-index=4}
+::: {.fragment .fade-in fragment-index=3}
 ```{r,echo=TRUE}
 # Get landrun dates for each period and make sure no more than 2 of the same 
 # dates are selected:
@@ -175,6 +175,32 @@ LRdate <- function(x){
 Open Source Tools
 :::
 
+## Stream Sampling Dates
+
+::: columns
+::: {.column width="60%"}
+-   No previous automation
+
+\vspace{2em}
+
+-   Tide charts inspected for each site for optimal sampling dates
+
+\vspace{2em}
+
+-   `rtide` package used to automatically pull tidal height
+
+\vspace{2em}
+
+-   Algorithm developed to select optimal sampling dates based on time of outgoing tide
+
+:::
+
+::: {.column width="40%"}
+![](www/rtide.png)
+:::
+:::
+
+
 ## Randomized Strata Sampling -- Old
 
 -   SAS code 20+ years old and divided into multiple files
@@ -195,35 +221,9 @@ Open Source Tools
 
 -   In-house expertise allows for customization
 
-![](www/strata_new.png){.absolute top="380" left="20" width="850" height="200"}
-
-## Stream Sampling Dates
-
-::: columns
-::: {.column width="60%"}
--   No previous automation
-
-\vspace{2em}
-
--   Tide charts inspected for each site for optimal sampling dates
-
-\vspace{2em}
-
--   `rtide` package used to automatically pull tidal height
-
-\vspace{2em}
-
--   Algorithm developed to select optimal sampling dates based on time of outgoing tide
-
-\vspace{2em}
-
 -   Combined with strata code to generate yearly sampling schedule for streamlined process
-:::
 
-::: {.column width="40%"}
-![](www/rtide.png)
-:::
-:::
+![](www/strata_new.png){.absolute top="380" left="20" width="850" height="200"}
 
 ## Sample Bottle Kits
 

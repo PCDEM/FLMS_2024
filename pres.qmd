@@ -244,29 +244,28 @@ Open Source Tools
 
 ::: {.column width="70%"}
 
-::: {.fragment .fade-in-then-semi-out fragment-index=1}
 -   Previous automation processes were limited to HACH systems, all other QA/QC checks were done manually (Time/date, missing data)
-:::
 
-::: {.fragment .fade-in fragment-index=2}
+
+::: {.fragment .fade-in fragment-index=1}
 -   Current process performs all checks automatically and generates PDF report detailing each check conducted
 
     -   Reproducible QA/QC
     -   Provides digital paper trail
 :::
 
-::: {.fragment .fade-in fragment-index=4}
+::: {.fragment .fade-in fragment-index=3}
 -   Processing time before automation: `5-8 weeks`
 :::
 
-::: {.fragment .fade-in fragment-index=5}
+::: {.fragment .fade-in fragment-index=4}
 -   Processing time after automation: `2-4 weeks`
 :::
 :::
 
 ::: {.column width="30%"}
 ![](www/qaqc.png) 
-![](www/quarto.png){.fragment .fade-in fragment-index=3}
+![](www/quarto.png){.fragment .fade-in fragment-index=2}
 :::
 :::
 
@@ -353,14 +352,15 @@ knitr::include_app("https://pcdem.shinyapps.io/dashboard_demo", height = "600px"
 -   Development of division Github account to provide public access to:
 
     -   Code
-    -   Full period-of-record dataset
+    -   Datasets
     -   GIS files
-    -   County water quality standards
+
+\vspace{2em}
 
 -   Future efforts:
 
     -   Provide public access to more of DEM data
-    -   Create more public facing applications for public use
+    -   Create more applications for public use
     -   Package development?
 :::
 

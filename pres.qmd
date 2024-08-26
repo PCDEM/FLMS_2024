@@ -221,7 +221,7 @@ Open Source Tools
 
 -   In-house expertise allows for customization
 
--   Combined with strata code to generate yearly sampling schedule for streamlined process
+-   Combined with stream date code to generate yearly sampling schedule for streamlined process
 
 ![](www/strata_new.png){.absolute top="380" left="20" width="850" height="200"}
 
@@ -244,8 +244,9 @@ Open Source Tools
 
 ::: {.column width="70%"}
 
+::: {.fragment .semi-fade-out fragment-index=1}
 -   Previous automation processes were limited to HACH systems, all other QA/QC checks were done manually (Time/date, missing data)
-
+:::
 
 ::: {.fragment .fade-in fragment-index=1}
 -   Current process performs all checks automatically and generates PDF report detailing each check conducted

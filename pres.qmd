@@ -274,7 +274,7 @@ Open Source Tools
 
 ::: columns
 ::: {.column style="width=50%; font-size: 0.8em;"}
--   Open science tools provide benefits to all aspect of sampling program:
+-   Open-source tools provide benefits to all aspect of sampling program:
 
     -   Faster processing time
     -   Less chance for human error

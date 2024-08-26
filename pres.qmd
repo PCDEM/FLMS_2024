@@ -46,24 +46,29 @@ Sampling Program
 ## Water Quality Monitoring Program
 
 ::: columns
-::: {.column width="40%"}
+::: {.column width="50%"}
 -   Sampling divided into 2 parts:
 
     -   Fixed Sites (streams)
 
     -   Stratified random (lakes, coastal marine)
 
-<br>
+\vspace{2em}
 
 -   8 sampling periods per year for wet/dry season coverage
 
-<br>
+\vspace{2em}
 
 -   Nutrients, chl-a, water clarity, bacteria, in-situ
+
+\vspace{2em}
+
+- Sampling divided into "runs", each with tidally influenced streams
 :::
 
-::: {.column width="60%"}
-![](www/lr_sites.png){.absolute top="80" left="450" width="300" height="550"} ![](www/strata.png){.absolute top="80" left="750" width="375" height="540"}
+::: {.column width="50%"}
+![](www/lr_sites.png){.absolute top="80" left="550" width="300" height="550"} 
+![](www/strata.png){.absolute top="80" left="850" width="375" height="540"}
 :::
 :::
 
@@ -71,8 +76,7 @@ Sampling Program
 
 -   Stream sites selected in advanced based on watershed coverage
 
-- Stream sites divided into "runs", each with tidally influenced streams
-
+\vspace{2em}
 
 -   Daily tide heights checked at tidally influenced sites
 
@@ -91,12 +95,10 @@ Sampling Program
 
 \vspace{2em}
 
--   Sites randomly selected within each grid
+-   Random sites selected within each stratum to obtain 4 sample locations per stratum per period (32/year)
 
 \vspace{2em}
--   Further random selection of 4 points across hexagons per sampling period (32/year)
 
-\vspace{2em}
 - Captures water quality variability across large water bodies
 :::
 

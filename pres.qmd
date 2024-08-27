@@ -46,7 +46,7 @@ Sampling Program
 ## Water Quality Monitoring Program
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="40%"}
 -   Sampling divided into 2 parts:
 
     -   Fixed Sites (streams)
@@ -66,9 +66,9 @@ Sampling Program
 - Sampling divided into "runs", each with tidally influenced streams
 :::
 
-::: {.column width="50%"}
-![](www/lr_sites.png){.absolute top="80" left="550" width="300" height="550"} 
-![](www/strata.png){.absolute top="80" left="850" width="375" height="540"}
+::: {.column width="60%"}
+![](www/lr_sites.png){.absolute top="80" left="450" width="300" height="550"} 
+![](www/strata.png){.absolute top="80" left="750" width="375" height="540"}
 :::
 :::
 

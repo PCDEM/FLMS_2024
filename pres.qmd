@@ -379,8 +379,6 @@ knitr::include_app("https://pcdem.shinyapps.io/dashboard_demo", height = "600px"
 
 {{< fa brands github >}} [PCDEM/FLMS_2024](https://github.com/PCDEM/FLMS_2024)
 
-{{< fa brands linkedin >}} [alex-manos](https://www.linkedin.com/in/alex-manos-228115113/)
-
 {{< fa envelope >}} [almanos\@pinellas.gov](mailto:almanos@pinellas.gov)
 
 

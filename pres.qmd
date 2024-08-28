@@ -130,6 +130,11 @@ Sampling Program
 </div>
 ```
 
+##  {background-color="#d4efdf"}
+
+::: {style="font-size: 3em; text-align: center; margin-top: 30vh; font-weight:bold"}
+Open Source Tools
+:::
 
 ## Goals for Automation
 
@@ -171,11 +176,6 @@ LRdate <- function(x){
 :::
 :::
 
-##  {background-color="#d4efdf"}
-
-::: {style="font-size: 3em; text-align: center; margin-top: 30vh; font-weight:bold"}
-Open Source Tools
-:::
 
 ## Stream Sampling Dates
 

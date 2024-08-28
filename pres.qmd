@@ -95,7 +95,7 @@ Sampling Program
 
 \vspace{2em}
 
--   Random sites selected within each stratum to obtain 4 sample locations per stratum per period (32/year)
+-   Random sites selected within each stratum: 4 sites per stratum per period
 
 \vspace{2em}
 
@@ -129,6 +129,8 @@ Sampling Program
   <div class="box fragment" data-fragment-index="1">Conduct statistical analysis for trends, nutrient loading, etc.</div>
 </div>
 ```
+
+
 ## Goals for Automation
 
 ::: columns
@@ -161,9 +163,7 @@ LRdate <- function(x){
 }
 ```
 :::
-
 :::
-
 ::: {.column width="20%"}
 ::: {.fragment .fade-in fragment-index=3}
 ![](www/R.png){.absolute width="250" height="230" top="40" left="780"}
@@ -194,9 +194,7 @@ Open Source Tools
 \vspace{2em}
 
 -   Algorithm developed to select optimal sampling dates based on time of outgoing tide
-
 :::
-
 ::: {.column width="40%"}
 ![](www/rtide.png)
 :::
@@ -205,25 +203,26 @@ Open Source Tools
 
 ## Randomized Strata Sampling -- Old
 
--   SAS code 20+ years old and divided into multiple files
+-   SAS code divided into multiple files
 
 -   Only 1 license available within our group
 
--   Limited staff knowledge of SAS
+-   Limited staff knowledge of sampling code design
 
 ![](www/strata_old.png){.absolute top="440" left="0" width="1000" height="150"}
 
 ![](www/gpt.png){.absolute .fragment top="250" left="500" width="530" height="150"}
 
+
 ## Randomized Strata Sampling -- New
 
--   Old SAS code converted to R
+-   Old SAS code converted to R using AI
 
--   Code available to all staff to view, edit, run
+-   Code available to all staff to view, run, edit
 
 -   In-house expertise allows for customization
 
--   Combined with stream date code to generate yearly sampling schedule for streamlined process
+-   Combined with stream date code for streamlined process to generate yearly sampling schedule
 
 ![](www/strata_new.png){.absolute top="380" left="20" width="850" height="200"}
 
@@ -247,11 +246,11 @@ Open Source Tools
 ::: {.column width="70%"}
 
 ::: {.fragment .semi-fade-out fragment-index=1}
--   Previous automation processes were limited to HACH systems, all other QA/QC checks were done manually (Time/date, missing data)
+-   Previous automation processes were limited to Hach WIMS systems, all other QA/QC checks were done manually (Time/date, missing data)
 :::
 
 ::: {.fragment .fade-in fragment-index=1}
--   Current process performs all checks automatically and generates PDF report detailing each check conducted
+-   Current process performs all checks simultaneously and auto-generates PDF report detailing each check conducted
 
     -   Reproducible QA/QC
     -   Provides digital paper trail
@@ -281,7 +280,7 @@ Open Source Tools
     -   Faster processing time
     -   Less chance for human error
     -   Increased data reliability
-    -   Faster output of trends and other data products
+    -   Faster output of data products
 
 <br>
 
@@ -295,7 +294,7 @@ Open Source Tools
 | Bottle Kit Request |    8 hours    |
 |     Data QA/QC     |   160 hours   |
 | Reformatting Data  |   20 hours    |
-|     **Total**      | **208 hours** |
+|     **Total**      | **~208 hours** |
 
 : Without Automation
 
@@ -307,7 +306,7 @@ Open Source Tools
 | Bottle Kit Request |  8 minutes   |
 |     Data QA/QC     |   24 hours   |
 | Reformatting Data  |   2 hours    |
-|     **Total**      | **30 hours** |
+|     **Total**      | **~30 hours** |
 
 : With Automation
 :::
@@ -323,8 +322,8 @@ Data Products
 
 -   Many data partners with the county
 
+    -   FDEP WIN 
     -   USF Water Atlas updates
-    -   FDEP WIN
     -   Local municipalities
 
 
@@ -346,8 +345,6 @@ knitr::include_app("https://pcdem.shinyapps.io/dashboard_demo", height = "600px"
 ![](www/shiny.png){.absolute top="230" left="965" width="120" height="130"}
 
 
-
-
 ## Keeping an Open Mind
 
 ::: columns
@@ -362,7 +359,7 @@ knitr::include_app("https://pcdem.shinyapps.io/dashboard_demo", height = "600px"
 
 -   Future efforts:
 
-    -   Provide public access to more of DEM data
+    -   Provide public access to more of data (LVI, SCI, seagrass, red tide)
     -   Create more applications for public use
     -   Package development?
 :::

@@ -59,7 +59,7 @@ Sampling Program
 
 \vspace{2em}
 
--   Nutrients, chl-a, water clarity, bacteria, in-situ
+-   Nutrients, chl-a, Turbidity, bacteria, pH, Dissolved Oxygen, etc.
 
 \vspace{2em}
 
